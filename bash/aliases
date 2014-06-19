@@ -1,0 +1,6 @@
+alias ga="git add ."
+alias gst="git status"
+alias hal="ls -a"
+alias c="clear"
+alias ..="cd .."
+
