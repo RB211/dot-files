@@ -1,6 +1,17 @@
-alias ga="git add ."
-alias gst="git status"
+# bash
 alias hal="ls -a"
 alias c="clear"
 alias ..="cd .."
 
+# git
+
+function gg(){
+	git commit -v -a -m "$*"
+}
+
+alias ggg='git push && git push heroku master'
+alias gst="git status"
+alias ga="git add ."
+alias gaa="git add -A"
+alias glog="git log --pretty=oneline"
+alias gcm="git checkout master"
